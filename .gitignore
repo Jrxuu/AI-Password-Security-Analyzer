@@ -1,0 +1,15 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables and API keys
+.env
+.env.*
+
+# PyCharm settings
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc
