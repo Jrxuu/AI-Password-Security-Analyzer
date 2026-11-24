@@ -315,7 +315,7 @@ def main():
     while True:
 
 
-        password = input(
+        password = getpass.getpass(
             "\nEnter a TEST password to analyze: "
         )
 
