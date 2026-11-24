@@ -43,6 +43,28 @@ I also used the OpenAI API to give more detailed feedback about the password and
 
 The actual password isn't sent to OpenAI. Only the results from the local checks are sent.
 
+## Example Results
+
+I tested the program with two different passwords to show how it handles weak and stronger passwords. Both passwords were made up for testing.
+
+### Weak Password Example
+
+**Test Password:** `admin123`  
+**Strength:** Weak (0/6)
+
+The program detects that this is a commonly used password and contains a predictable number sequence.
+
+![Weak Password Analysis](Analysis%20Screenshots/Weak%20Password.png)
+
+### Strong Password Example
+
+**Test Password:** `SilverBun625`  
+**Strength:** Strong (5/6)
+
+This password is longer and includes uppercase letters, lowercase letters, and numbers. The program doesn't detect any obvious weaknesses, giving it a higher score.
+
+![Strong Password Analysis](Analysis%20Screenshots/Strong%20Password.png)
+
 ## How to Run
 
 ### 1. Clone the repository
